@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Oswald:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&family=Oswald:wght@300;400;600&display=swap');
 
 body {
   /*font-family:'Oswald', sans-serif;
@@ -11,6 +11,7 @@ body {
   background: #17191C;
   color: #fff;
   line-height: 1.42;
+  margin: 0;
   }
 
   a {
@@ -18,10 +19,12 @@ body {
   }
 
   p {
-    margin-top: 0;
+    margin: 0;
   }
 
  * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
  }
 
@@ -32,17 +35,19 @@ body {
 .container {
   margin: 0 auto;
   width: 1142px;
+  position: relative;
 }
 
 .header {
   height: 130px;
   position: relative;
+  margin-bottom: 99px;
   }
 
 .logo {
 display: block;
 position: absolute;
-top: 26px;
+top: 21px;
 left: 0px;
 }
 
@@ -52,12 +57,12 @@ left: 0px;
 
 .menu {
   position: absolute;
-  top: 47px;
-  left: 439px;
+  top: 39px;
+  left: 440px;
 }
 
 .menu_footer {
-  top: 59px;
+  top: 56px;
   left: 328px;
 }
 
@@ -78,7 +83,7 @@ h1, h2, h3, h4 {
 .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 53px;
+  margin-right: 52px;
 }
 
 .menu__item_active .menu__link {
@@ -100,7 +105,7 @@ h1, h2, h3, h4 {
 
 .contacts {
   position: absolute;
-  top:32px ;
+  top:28px ;
   right: 0px;
   font-style: normal;
   text-align:right;
@@ -113,41 +118,47 @@ h1, h2, h3, h4 {
 .contacts__free-call {
   font-size: 11px;
   color: #9A9A9A;
+  margin-bottom: 4px;
 }
 
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
-  margin-bottom: 4px;
+  line-height: 35px;
 }
 
 .contacts__dropdown-title {
   font-size: 13px;
   color: #FF3D00;
   text-decoration: underline;
+  margin-top: -7px;
 }
 
+.main-content {
+  margin-bottom: 52px;
+}
+
+
 .offer {
-  margin: 0 auto;
+  margin: 0 auto 231px;
+  text-align:center;
 }
 
 .offer__title {
-  text-align:center;
   font-size:  72px;
   font-weight: 800;
   line-height: 98px;
-  margin-top: 104px;
   margin-bottom: 15px;
   text-transform: uppercase;
   }
 
 .offer__text {
-  text-align: center;
   font-size: 18px;
-  margin-bottom: 47px;
+  margin-bottom: 39px;
 }
 
 .btn {
+  display: inline-block;
   background: #fff;
   border: 2px solid #FF3D00;
   border-radius: 35px;
@@ -157,30 +168,41 @@ h1, h2, h3, h4 {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  display: block;
-  width: 198px;
 }
 
-.btn_center {
+.service__btn {
+
+}
+
+.btn--center {
   margin: 0 auto;
 }
 
-.btn_small {
-  width: 168px;
-  padding: 18px 40px;
-  margin-top: 66px;
+.btn--theme-orange {
+  background-color: #FF3D00;
+  color: #fff;
 }
 
-.service-list {
-  margin-top: 219px;
+.btn:hover {
+  background:#FF3D00;
+  color: #fff;
+}
+
+.btn--small {
+  padding: 18px 40px;
+}
+
+.service__image {
+  margin-left: 9px;
+  margin-bottom: 23px;
 }
 
 .service {
   margin-bottom: 180px;
   width: 362px;
-  height: 476px;
+  min-height: 450px;
   margin: 0 auto;
-  padding: 40px 34px 57px 22px ;
+  padding: 40px 34px 49px 22px ;
   position: relative;
   background: #fff;
   border-radius: 5px;
@@ -194,14 +216,18 @@ h1, h2, h3, h4 {
   margin-right: 0;
 }
 
+.service-list {
+  margin-bottom: 180px;
+}
+
 .service__title {
   font-weight: 700;
   font-size: 32px;
-  margin-top: 23px;
+  margin-bottom: 15px;
 }
 
 .service__features {
-  margin-top: 17px;
+  margin-bottom: 22px;
 }
 
 .service__features-item {
@@ -210,28 +236,26 @@ h1, h2, h3, h4 {
   width: 102px;
 }
 
-.service__features-item_second {
+.service__features-item:last-child {
   width: 123px;
   margin-left: 76px;
-  margin-bottom: 25px;
 }
 
-.services__description {
+.service__description {
   font-size: 14px;
-  width: 305px;
   margin-bottom: 29px;
+  line-height: 22px;
 }
 
-.btn:hover {
-  background:#FF3D00;
-  color: #fff;
+.news {
+  margin-bottom: 151px;
 }
 
 .news__title {
   font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
-  margin-top: 180px;
+  margin-bottom: 51px;
 }
 
 .news__sale {
@@ -239,8 +263,11 @@ h1, h2, h3, h4 {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin-top: 51px;
   margin-right: 23px;
+}
+
+.news__sale-list {
+  margin-bottom: 45px;
 }
 
 .news__sale:last-child {
@@ -260,7 +287,7 @@ h1, h2, h3, h4 {
   bottom: 0;
   right: 0;
   padding: 4px 32px;
-  min-height: 140px;
+  min-height: 151px;
 }
 
 .news__sale-date {
@@ -282,7 +309,6 @@ h1, h2, h3, h4 {
     
 .paginator {
   text-align: center;
-  margin-top: 45px;
 }
 
 .paginator__display, .paginator__pages {
@@ -309,6 +335,7 @@ h1, h2, h3, h4 {
 .paginator__number {
   display: inline-block;
   vertical-align: middle;
+  margin-right: -2px;
 }
 
 .paginator__number_active .paginator__link {
@@ -320,7 +347,7 @@ h1, h2, h3, h4 {
 }
 
 .about {
-  margin-top: 151px;
+  margin-bottom: 43px;
 }
 
 .about__description, .about__image::before {
@@ -338,13 +365,12 @@ h1, h2, h3, h4 {
 
 .about__description {
   background: #fff;
-  padding: 70px 81px;
+  padding: 66px 81px;
   width: 785px;
   border-radius: 5px;
   margin-left: -140px;
   margin-top: 94px;
   min-height: 455px;
-  margin-bottom: 43px;
 }
 
 .about__title {
@@ -359,7 +385,7 @@ h1, h2, h3, h4 {
   color: #000000;
   width: 502px;
   line-height: 27px;
-
+  margin-bottom: 66px;
 }
 
 .about__discription p {
@@ -381,19 +407,19 @@ margin-bottom: 20px;
 }
 
 .footer-container__content {
-  border-top: 4px solid rgb(255 255 255 / 10%);
+  border-top: 1px solid rgb(255 255 255 / 10%);
 }
 
 .networks__list {
   top: 49px;
-  right: 258px;
+  right: 264px;
   position: absolute;
 }
 
 .networks__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
   }
 
 .networks__item:last-child {
