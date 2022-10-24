@@ -1,0 +1,56 @@
+.networks__list {
+  /* top: 49px;
+  right: 264px;
+  position: absolute; */
+  margin-right: 74px;
+}
+
+.networks__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  }
+
+.networks__item:last-child {
+  margin-right: 0;
+}
+
+.networks__link {
+  display: block;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  background: center center no-repeat;
+}
+
+.networks__item_tg .networks__link {
+  background-image: url(../../img/tg2.png);
+}
+
+.networks__item_tg .networks__link:hover {
+  background-image: url(../../img/tg.png);
+}
+
+.networks__item_vk .networks__link {
+  background-image: url(../../img/vk2.png);
+}
+
+.networks__item_vk .networks__link:hover {
+  background-image: url(../../img/vk.png);
+}
+
+.networks__item_fb .networks__link {
+  background-image: url(../../img/fb2.png);
+}
+
+.networks__item_fb .networks__link:hover {
+  background-image: url(../../img/fb.png);
+}
+
+.networks__item_inst .networks__link {
+  background-image: url(../../img/inst2.png);
+}
+
+.networks__item_inst .networks__link:hover {
+  background-image: url(../../img/inst.png);
+}
