@@ -1,0 +1,15 @@
+.inner-section {
+  background: #fff;
+  padding: 76px 0px;
+}
+
+.inner-section--bg--grey {
+  background: #F4F5F5;
+}
+
+.inner-section__title {
+ color: #1A1B1E;
+ font-size: 48px;
+ font-weight: 700;
+ margin-bottom: 46px;
+}

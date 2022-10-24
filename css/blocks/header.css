@@ -17,3 +17,7 @@
 .header__col--right {
   justify-content: flex-end;
 }
+
+.header--service {
+  margin-bottom:30px;
+}

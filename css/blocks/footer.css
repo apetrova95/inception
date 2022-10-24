@@ -25,3 +25,7 @@ justify-content: flex-end;
 .footer-container__section {
 padding: 42px 0;
 }
+
+.inner-footer {
+  padding: 44px 0;
+  }
