@@ -28,4 +28,5 @@
 
 .partner__link:hover {
   filter: none;
+  transition: 1s;
 }

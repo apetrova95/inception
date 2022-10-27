@@ -14,14 +14,62 @@
 }
 
 .contacts__phone {
+  display: block;
   text-decoration: none;
   font-size: 26px;
   line-height: 35px;
 }
 
-.contacts__dropdown-title {
+.dropdown__title {
   font-size: 13px;
   color: #FF3D00;
   text-decoration: underline;
   margin-top: -7px;
+  margin-bottom: 4px;
+}
+
+.dropdown:hover .dropdown__menu {
+  display: flex;
+  transition: 1.5s;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-flex;
+  justify-content: end;
+
+}
+
+.dropdown__menu {
+  position: absolute;
+  border-radius: 5px;
+  background: #FFFFFF;
+  opacity: 0.8;
+  width: 160px;
+  height: 65px;
+  font-size: 13px;
+  line-height: 21px;
+  top: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: none;
+}
+
+.dropdown__item {
+  color: black;
+  font-weight: 600px;
+}
+
+.dropdown__menu::after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: #FFFFFF;
+  opacity: 0.8;
+  margin-left: 61px;
+  margin-bottom: 84px;
 }

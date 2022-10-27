@@ -72,3 +72,9 @@ html, body {
   width: 1142px;
 }
 
+button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+
