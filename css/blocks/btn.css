@@ -9,6 +9,7 @@
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: background-color 1s, color 1s;
 }
 
 .btn--center {
@@ -24,11 +25,9 @@
   background:#FF3D00;
 }
 
-
 .btn:hover {
   background:#FF3D00;
   color: #fff;
-  transition: 1s;
 }
 
 .btn--theme-grey {

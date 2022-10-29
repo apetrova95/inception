@@ -1,6 +1,5 @@
 .paginator {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   margin-left: 383px;  
 }
@@ -22,18 +21,19 @@
   width: 32px;
   line-height: 32px;
   border-radius: 35px;
+  transition: background-color .5S;
 }
 
+ 
 .paginator__number {
   text-align: center;
   margin-right: 2px;
 }
 
 .paginator__number_active .paginator__link {
-  background: #FF3D00;
+  background-color: #FF3D00;
 }
 
 .paginator__link:hover {
-  background: #FF3D00;
-  transition: .5s;
+  background-color: #FF3D00;
 }

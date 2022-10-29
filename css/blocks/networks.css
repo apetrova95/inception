@@ -19,7 +19,9 @@
   height: 36px;
   width: 36px;
   background: center center no-repeat;
+  transition: background-image .5s;
 }
+
 
 .networks__link::after {
   content: "";

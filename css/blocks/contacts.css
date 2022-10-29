@@ -47,7 +47,6 @@
   background: #FFFFFF;
   opacity: 0.8;
   width: 160px;
-  height: 65px;
   font-size: 13px;
   line-height: 21px;
   top: 100%;
@@ -55,6 +54,7 @@
   align-items: center;
   text-align: left;
   display: none;
+  padding: 15px 19px;
 }
 
 .dropdown__item {
@@ -69,7 +69,6 @@
   width: 0px;
   height: 0px;
   border-bottom-color: #FFFFFF;
-  opacity: 0.8;
-  margin-left: 61px;
-  margin-bottom: 84px;
+  top: -20px ;
+  right: 40px;
 }

@@ -18,11 +18,11 @@
 .menu__link {
   font-size: 14px;
   text-decoration: none;
+  transition: color .5s;
 }
 
 .menu__link:hover {
   color: #FF3D00;
-  transition: .5s;
 }
 
 /* .menu__list--review {
