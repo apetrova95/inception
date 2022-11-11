@@ -1,0 +1,40 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/bg.png)
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: welcome 1s linear;
+}
+
+.central__logo {
+  margin-bottom: 60px;
+}
+
+@keyframes welcome {
+0% {
+  opacity: 0;
+  transform: scale(0.1) rotate(30deg);
+}
+
+40% {
+  transform: rotate(-10deg);
+}
+
+60% {
+  transform: rotate(5deg);
+}
+
+100% {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+}

@@ -1,0 +1,67 @@
+.networks__list {
+  display: flex;
+  align-items: center;
+  margin-right: 74px;
+}
+
+.networks__item {
+  margin-right: 6px;
+}
+
+.networks__item:last-child {
+  margin-right: 0;
+}
+
+.networks__link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  background: center center no-repeat;
+  transition: background-image .5s;
+}
+
+
+.networks__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px;
+  width: 36px;
+  background-image: url(../../img/sprites.png);
+}
+
+.networks__item_tg .networks__link:hover::after {
+  background-position: -122px -10px;
+}
+
+.networks__item_tg .networks__link::after {
+  background-position: -122px -66px;
+}
+
+.networks__item_vk .networks__link:hover::after {
+  background-position: -10px -122px;
+}
+
+.networks__item_vk .networks__link::after {
+  background-position: -66px -122px;
+}
+
+.networks__item_fb .networks__link:hover::after {
+  background-position: -10px -10px;
+}
+
+.networks__item_fb .networks__link::after {
+  background-position: -66px -10px;
+}
+
+.networks__item_inst .networks__link:hover::after {
+  background-position: -10px -66px;
+}
+
+.networks__item_inst .networks__link:after {
+  background-position: -66px -66px;
+}

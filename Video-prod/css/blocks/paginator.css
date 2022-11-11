@@ -1,0 +1,39 @@
+.paginator {
+  display: flex;
+  align-items: center;
+  margin-left: 383px;  
+}
+
+.paginator__pages {
+  display: flex;
+  align-items: center;
+}
+
+.paginator__display {
+ margin-right: 25px;
+}
+
+.paginator__link {
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  border-radius: 35px;
+  transition: background-color .5S;
+}
+
+ 
+.paginator__number {
+  text-align: center;
+  margin-right: 2px;
+}
+
+.paginator__number_active .paginator__link {
+  background-color: #FF3D00;
+}
+
+.paginator__link:hover {
+  background-color: #FF3D00;
+}

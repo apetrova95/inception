@@ -1,0 +1,31 @@
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__container {
+  margin-top: auto;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+justify-content: flex-end;
+}
+
+.footer-container__content {
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
+.footer-container__section {
+padding: 42px 0;
+}
+
+.inner-footer {
+  padding: 44px 0;
+  }
